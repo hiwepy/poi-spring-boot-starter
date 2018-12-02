@@ -17,8 +17,6 @@ package org.apache.poi.spring.boot;
 
 import java.util.Properties;
 
-import org.springframework.boot.autoconfigure.template.AbstractTemplateViewResolverProperties;
-
 public class PoiProperties {
 
 	public static final String DEFAULT_TEMPLATE_LOADER_PATH = "classpath:/templates/";
