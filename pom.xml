@@ -373,7 +373,7 @@
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
 		<ooxml-security.version>1.1</ooxml-security.version>
 		<ooxml-schemas.version>1.4</ooxml-schemas.version>
-		<poi.version>4.1.0</poi.version>
+		<poi.version>4.1.1</poi.version>
 	</properties>
 
 	<dependencyManagement>
