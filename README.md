@@ -1,4 +1,4 @@
-# spring-boot-starter-poi
+# poi-spring-boot-starter
 
 > 很多人都困惑POI那么多Jar到底应该导入哪一个。
 实际上很多时候我们只利用POI来操作Excel。甚至只用xls这一种格式。
