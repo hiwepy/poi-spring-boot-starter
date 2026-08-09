@@ -268,6 +268,11 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${maven-jacoco-plugin.version}</version>
+                <configuration>
+                    <excludes>
+                        <exclude>**/PoiAutoConfiguration*.class</exclude>
+                    </excludes>
+                </configuration>
                 <executions>
                     <!-- 准备 jacoco agent: 注入到 surefire 启动的 JVM -->
                     <execution>
@@ -488,7 +493,7 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
-        <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
         <maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
         <ooxml-security.version>1.1</ooxml-security.version>
         <ooxml-schemas.version>1.4</ooxml-schemas.version>
