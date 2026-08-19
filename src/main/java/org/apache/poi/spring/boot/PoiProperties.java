@@ -17,6 +17,12 @@ package org.apache.poi.spring.boot;
 
 import java.util.Properties;
 
+/**
+ * <p>Configuration properties for Poi.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class PoiProperties {
 
 	public static final String DEFAULT_TEMPLATE_LOADER_PATH = "classpath:/templates/";
