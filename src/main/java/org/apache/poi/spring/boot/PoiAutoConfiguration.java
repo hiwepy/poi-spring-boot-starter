@@ -32,6 +32,9 @@ public class PoiAutoConfiguration {
 	}
 
 /*	@PostConstruct
+    /**
+     * <p>Check template location exists.</p>
+     */
 	public void checkTemplateLocationExists() {
 		if (this.properties.isCheckTemplateLocation()) {
 			TemplateLocation templatePathLocation = null;
@@ -58,6 +61,10 @@ public class PoiAutoConfiguration {
 		@Autowired
 		protected PoiProperties properties;
 
+    /**
+     * <p>Apply properties.</p>
+     * @param factory
+     */
 		protected void applyProperties(BeetlConfiguration factory) {
 			/*factory.setTemplateLoaderPaths(this.properties.getTemplateLoaderPath());
 			factory.setPreferFileSystemAccess(this.properties.isPreferFileSystemAccess());
